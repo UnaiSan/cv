@@ -1,0 +1,5 @@
+*.tar
+
+# LaTeX output stuff
+*.synctex.gz
+*.pdf

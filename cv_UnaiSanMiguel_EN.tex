@@ -1,0 +1,196 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.2 (25/3/16)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Unai} % Your first name
+\familyname{San Miguel Alzórriz} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{San Martín 6 Ilarratz}{Esteribar, 31698 Navarra, Spain}
+\mobile{+34 654 015 302}
+\phone{+34 948 30 43 91}
+%\fax{(000) 111 1113}
+\email{unai.sanmiguel@gmail.com}
+%\homepage{staff.org.edu/~jsmith}{staff.org.edu/$\sim$jsmith} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+\photo[70pt][0.4pt]{pictures/FOTO} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+%% To remove the cover letter, comment out this entire block
+%
+%\clearpage
+%
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+%
+%\makelettertitle % Print letter title
+%
+%\lipsum[1-3] % Dummy text
+%
+%\makeletterclosing % Print letter signature
+%
+%\newpage
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Personal information}
+
+\cvitem{}{Married, 3 daughters}
+\cvitem{}{Born in 1974 in Spain}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{1992-2000}{Aeronautical Engineer}{Universidad Politécnica de Madrid}{}{}{Master thesis: \textit{Preliminary design of a wind turbine}}  % Arguments not required can be left empty
+
+%\section{Masters Thesis}
+%
+%\cvitem{Title}{\emph{Money Is The Root Of All Evil -- Or Is It?}}
+%\cvitem{Supervisors}{Professor James Smith \& Associate Professor Jane Smith}
+%\cvitem{Description}{This thesis explored the idea that money has been the cause of untold anguish and suffering in the world. I found that it has, in fact, not.}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\cventry{2010--Present}{R \& D Engineer}{ACCIONA Windpower}{Navarra}{}{In the Blades design area, developed tools to perform aerodynamic design and analysis of wind turbine blades.
+\begin{itemize}
+\item Design of AW61.2, AW64.7, AW64.7\_2 (with prebending) blades
+\end{itemize}}
+
+\cventry{2007--2010}{R \& D Engineer}{ACCIONA Windpower}{Navarra}{}{In the Patents and research area, I took part in research projects, managed some patents and did technological surveillance.
+\begin{itemize}
+\item Researcher in project \emph{EOLIA: Deep water offshore wind technologies}
+\end{itemize}}
+
+\cventry{2000--2007}{R \& D Engineer}{Gamesa Eólica}{Navarra}{}{In the Aerodynamics, loads and siting area, I took part in projects with a broad scope: calculation and certification of design loads, measured loads analysis, aerodynamic design of blades, complex terrain wind flow assessment, product support from the overall performance of the wind turbine point of view.}
+
+\cventry{1999--2000}{Internship}{Gamesa Eólica}{Navarra}{}{In the Aerodynamics, loads and siting area.}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Awards}
+%
+%\cvitem{2011}{School of Business Postgraduate Scholarship}
+%\cvitem{2010}{Top Achiever Award -- Commerce}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Computer skills}
+
+\cvitem{Basic}{AcuSolve, FLUENT}
+\cvitem{Intermediate}{python, Matlab, R, \LaTeX, Microsoft Office, Bladed. Nothing fancy, just what is needed to have the things done.}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Publications}
+
+\cvitem{2017}{\emph{Global sensitivity analysis of the blade geometry variables on the wind turbine performance.}, F. Echeverría, F. Mallor, U. San Miguel, Wind Energy, DOI: 10.1002/we.2111}
+%\cvitem{201?}{La patente del desequilibrio}
+\cvitem{2014}{\emph{Airfoil family design for large offshore wind turbine blades.}, B. Méndez, X. Munduate, U. San Miguel, 5th Science of Making Torque from Wind Conference, Volume: 524, June 2014, DOI: 10.1088/1742-6596/524/1/012022}
+\cvitem{}{\emph{Evolutionary blade design tool for maximizing energy in a wind turbine.}, E. Echeverría, J. Sanz-Corretge, U. San Miguel, E. Llorente, EWEA 2014, Barcelona}
+\cvitem{2001}{\emph{Flow over topographic configurations of interest: Comparison of results of different models.}, M. Esteban, A. Crespo, J. García, J. Hernández, U. San Miguel, EWEC 2001, Copenhagen}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Communication Skills}
+
+\cvitem{2000--2005}{Teacher in two sessions of the ETSII UPM course \emph{Expert in design and planning of wind farms}}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{Spanish}{Native}{}
+\cvitemwithcomment{English}{Good}{}
+\cvitemwithcomment{French}{Basic}{Basic words and phrases only}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+
+\cvlistitem{Pastry cooking, hiking, data science and statistics, bayesian reasoning.}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
