@@ -2,4 +2,6 @@
 
 # LaTeX output stuff
 *.synctex.gz
-*.pdf
+*.log
+*.aux
+*.out
