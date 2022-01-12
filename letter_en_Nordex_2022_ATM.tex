@@ -1,0 +1,97 @@
+\documentclass[11pt]{article}
+
+\usepackage{kantlipsum}   %% only for demo
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{marvosym}
+\usepackage{graphicx}
+
+
+\pagestyle{empty}
+
+\usepackage[scale=0.775]{geometry}
+\setlength{\parindent}{0pt}
+\addtolength{\parskip}{6pt}
+
+\def\firstname{Unai}
+\def\familyname{San Miguel}
+\def\FileAuthor{\firstname \familyname}
+\def\FileTitle{\firstname \familyname's cover letter}
+\def\FileSubject{Cover letter}
+\def\FileKeyWords{\firstname \familyname, Cover letter}
+
+\renewcommand{\ttdefault}{pcr}
+
+\usepackage{url}
+\urlstyle{tt}
+\ifpdf
+  \usepackage[pdftex,pdfborder=0,breaklinks,baseurl=http://,pdfpagemode=None,pdfstartview=XYZ,pdfstartpage=1]{hyperref}
+  \hypersetup{
+    pdfauthor   = \FileAuthor,%
+    pdftitle    = \FileTitle,%
+    pdfsubject  = \FileSubject,%
+    pdfkeywords = \FileKeyWords,%
+    pdfcreator  = \LaTeX,%
+    pdfproducer = \LaTeX}
+\else
+  \usepackage[dvips]{hyperref}
+\fi
+
+
+\begin{document}
+\sffamily   % for use with a résumé using sans serif fonts;
+%\rmfamily  % for use with a résumé using serif fonts;
+\hfill%
+\begin{minipage}[t]{.6\textwidth}
+\raggedleft%
+{\bfseries Unai San Miguel Alzórriz}\\[.35ex]
+\small\itshape%
+San Martín 6\\
+Ilarratz (Esteribar), 31698 Navarra, Spain\\[.35ex]
+\Telefon~+34 654 015 302\\
+\Letter~\href{mailto:unai.sanmiguel@gmail.com}{unai.sanmiguel@gmail.com}
+\end{minipage}\\[1em]
+%
+\begin{minipage}[t]{.4\textwidth}
+\raggedright%
+{\bfseries Nordex}\\[.35ex]
+\small\itshape%
+% street and number\\
+% postcode city
+\end{minipage}
+\hfill % US style
+%\\[1em] % UK style
+\begin{minipage}[t]{.4\textwidth}
+\raggedleft % US style
+\today
+%April 6, 2006 % US informal style
+%05/04/2006 % UK formal style
+\end{minipage}\\[2em]
+\raggedright
+Dear Sir or Madam:\\[1.5em]
+%
+% \kant[1-3] % for demo
+
+I am writing to apply for the \emph{Group Lead (m/f/d) Blade Engineering / Aerodynamic Tools} position advertised in Forum (P\&C HUB). I enclose my resumé, for references you can speak with Elena Llorente and Álvaro Gorostidi, who have been my managers for long time in Nordex (formerly Acciona), and thought I would be a suitable candidate for the position.
+
+My experience of more than twenty years in wind turbine design with a special focus in blades, and the exposure I have had to several very high-level programming languages make good background for the position requirements. In dealing with a colleague more experienced in programming but less in wind turbine blades aerodynamics, or even less in our wind turbine blades, I can fill the gap in there to help them achieve the best results. When dealing with a colleague with more experience in some aspects of wind turbine blades but less in programming I can complement too their capabilities. We will be engineers who write code rather than programmers or software engineers, and I think I can gear the work towards being more helpful to our colleagues in Aerodynamics, our natural internal clients.
+
+Apart from these technical aspects, I have enjoyed much these months of close interactions with our German colleagues, and I am convinced that I will be useful as the glue between both countries, even at this small scale. I have always considered myself more an observer than a pure national individual (of Spain and Spanish people and habits), so I may speak to our German colleagues as a more neutral person than someone with a lesser will to adopt foreign practices.
+
+I can be reached via email at \href{mailto:USanMiguelAlzorriz@nordex-online.com}{USanMiguelAlzorriz@nordex-online.com} or Teams.
+
+Thank you for your time in considering my application, I look forward to hearing from you regarding the next steps in the process.
+
+%Yours sincerely,\\[2em] % if the opening is "Dear Mr(s) Doe,"
+Yours faithfully,\\[2em] % if the opening is "Dear Sir or Madam,"
+%
+%\includegraphics[scale=0.75]{signature_blue}\\
+{\bfseries Unai San Miguel}\\
+%
+\vfill%
+{\slshape Enclosure}
+{\slshape Attachment: curriculum vit\ae{}}
+\end{document}
+
+enter image description here
