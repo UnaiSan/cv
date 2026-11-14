@@ -1,7 +1,5 @@
-# CV: mi currículum.
+# CV: my resumé
 
-Es una buena idea mantener un repositorio para este menester.
+### Tools 
 
-### Herramientas
-
-Uso LaTeX, y el paquete moderncv.
+rendercv.
