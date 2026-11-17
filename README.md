@@ -1,7 +1,14 @@
-# CV: mi currículum.
+# CV: my resumé
 
-Es una buena idea mantener un repositorio para este menester.
+### Tools 
 
-### Herramientas
+rendercv.
 
-Uso LaTeX, y el paquete moderncv.
+```
+uv tool install "rendercv[full]"
+```
+
+YAML Extension by RedHat
+pdfmore by wytheglobal
+
+rendercv render --watch unai_CV.yaml
