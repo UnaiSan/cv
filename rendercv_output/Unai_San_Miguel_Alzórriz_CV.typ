@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 11,
-    day: 12,
+    day: 17,
   ),
 )
 
@@ -116,7 +116,7 @@ Born in 1974 in Spain
 
 Languages: Spanish (native), English (fluent), French (basic)
 
-I like to cook and walk in nature
+I like cooking and walking in nature
 
 == Experience
 

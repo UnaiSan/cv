@@ -14,7 +14,7 @@ Born in 1974 in Spain
 
 Languages: Spanish (native), English (fluent), French (basic)
 
-I like to cook and walk in nature
+I like cooking and walking in nature
 
 # Experience
 ## **Nordex Technology**, Senior Expert in Wind Turbine Blades
